@@ -3,17 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <title>clicker</title>
-        <script>
-          function changeText(){
-              console.log("clicked!");
-              int val = parseInt(document.getElementById('score').innerHTML);
-              val += 1;
-              document.getElementByID('score') = val.toString();
-          }        
-        </script>  
     </head>
     <body>
-    <input type='button' onclick='changeText()' value='Click Me'/>
-    <p id="score">0</p>
+        <input type='button' onclick='changeText()' value='Click Me'/>
+        <p id="score">0</p>
+        <script>
+            val = 0;
+            function changeText()
+            {
+                val += 1;
+                document.getElementById("score").innerHTML = val.toString();
+            }
+        </script>
     </body>
 </html>
