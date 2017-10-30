@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>clicker</title>
         <script>
-          function click{
+          function changeText(){
               console.log("clicked!");
               int val = parseInt(document.getElementById('score').innerHTML);
               val += 1;
@@ -13,7 +13,7 @@
         </script>  
     </head>
     <body>
-    <button id=click>Click me</button>
+    <input type='button' onclick='changeText()' value='Click Me'/>
     <p id="score">0</p>
     </body>
 </html>
