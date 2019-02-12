@@ -67,6 +67,11 @@ li {
     font-size: 1.4em;
     max-width: 650px;
 }
+@media (max-width: 991px) {
+    p,a,h1,h2,h3,h4,h5,h6,ul,dl,ol,li {
+        max-width: 90%;
+    }
+}
 .wrapper {
   padding: 6em 2em 4em;
 }
