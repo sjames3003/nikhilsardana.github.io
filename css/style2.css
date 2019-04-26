@@ -1,14 +1,14 @@
 body {
     box-sizing: border-box;
-    font-family: "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-family: "Helvetica Neue", HelveticaNeue, "TeX Gyre Heros", TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
+    /* font-family: "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;*/
     background: #fffff8;
-    color: #112;
+    color: #000;
     margin: 1em 0 1em 0;
     line-height: 1.4;
-    font-size: 15px;
 }
 
 a {
@@ -19,7 +19,7 @@ a:hover {
     text-decoration: underline;
 }
 h1,h2,h3,h4,h5,h6 {
-        font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
 }
 h1 {
     font-size: 3em;
@@ -45,14 +45,14 @@ h3,h4,h5,h6 {
     max-width: 650px;
 }
 p, ol, ul, dl {
-    font-size: 1.4em;
+    font-size: 1em;
     margin-top: 1.3em;
     margin-bottom: 1.3em;
 }
 p {
     text-align: left;
     margin: auto auto;
-    font-size: 1.4em;
+    font-size: 1em;
     max-width: 650px;
 }
 ul {
@@ -64,7 +64,8 @@ ul {
 li {
     text-align: left;
     margin: auto auto;
-    font-size: 1.4em;
+    font-size: 1.2em;
+    line-height: 1.7em;
     max-width: 650px;
 }
 @media (max-width: 991px) {
