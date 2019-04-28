@@ -8,7 +8,6 @@ body {
     background: #fffff8;
     color: #000;
     margin: 1em 0 1em 0;
-    line-height: 1.4;
 }
 
 a {
@@ -65,43 +64,11 @@ li {
     text-align: left;
     margin: auto auto;
     font-size: 1.2em;
-    line-height: 1.7em;
+    line-height: 1.7em !important;
     max-width: 650px;
 }
 @media (max-width: 991px) {
     p,a,h1,h2,h3,h4,h5,h6,ul,dl,ol,li {
         max-width: 90%;
     }
-}
-.wrapper {
-  padding: 6em 2em 4em;
-}
-.wrapper.style1 h1{
-    font-size: 3em;
-}
-.wrapper.style2 {
-        background-image: linear-gradient(to bottom, #1e3c72, #21417b, #244785, #274c8e, #2a5298);
-        background-attachment: fixed;
-        color: #fff;
-}
-.wrapper.style2 h1{
-    color: #fff
-}
-.wrapper.style2 h2{
-    color: #FF80AB;
-}
-.wrapper.style3 {
-    background-color: #ffffff;
-    color: #000000;
-}
-.wrapper.style3 h1 {
-    color: #000000;
-}
-.wrapper.style3 h2 {
-    color: #2A5298;
-}
-.wrapper.footer {
-    padding: 2em 2em 2em;
-    background: #000;
-    color: #ffffff;
 }
