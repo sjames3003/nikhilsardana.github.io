@@ -4,6 +4,7 @@ body {
     background: #fffff8;
     color: #000;
     margin: 1em 0 1em 0;
+    line-height: 2em;
 }
 
 a {
@@ -21,7 +22,8 @@ h1 {
     color: #2A5298;
     text-align: center;
     margin: auto;
-    margin-top: 1.5em;
+    margin-top: 1.75em;
+    margin-bottom: 1em;
     max-width: 650px;
 
 }
@@ -49,16 +51,9 @@ p, ol, ul, dl {
 }
 li {
     font-size: 1.2em;
-    line-height: 1.7em;
 }
 @media (max-width: 991px) {
     p,a,h1,h2,h3,h4,h5,h6,ul,dl,ol,li {
         max-width: 90%;
-    }
-    h1 {
-        font-size: 3em;
-    }
-    li {
-        line-height: 1.7em;
     }
 }
