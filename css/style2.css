@@ -5,6 +5,7 @@ body {
     color: #000;
     margin: 1em 0 1em 0;
     line-height: 2em;
+    display: block;
 }
 
 a {
