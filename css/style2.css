@@ -1,10 +1,6 @@
 body {
     box-sizing: border-box;
     font-family: "Helvetica Neue", HelveticaNeue, "TeX Gyre Heros", TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
-    /* font-family: "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;*/
     background: #fffff8;
     color: #000;
     margin: 1em 0 1em 0;
@@ -21,7 +17,7 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Libre Baskerville', serif;
 }
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     color: #2A5298;
     text-align: center;
     margin: auto;
@@ -47,28 +43,22 @@ p, ol, ul, dl {
     font-size: 1em;
     margin-top: 1.3em;
     margin-bottom: 1.3em;
-}
-p {
-    text-align: left;
     margin: auto auto;
-    font-size: 1em;
-    max-width: 650px;
-}
-ul {
     text-align: left;
-    margin: auto auto;
-    font-size: 1em;
     max-width: 650px;
 }
 li {
-    text-align: left;
-    margin: auto auto;
     font-size: 1.2em;
-    line-height: 1.7em !important;
-    max-width: 650px;
+    line-height: 1.7em;
 }
 @media (max-width: 991px) {
     p,a,h1,h2,h3,h4,h5,h6,ul,dl,ol,li {
         max-width: 90%;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    li {
+        line-height: 1.7em;
     }
 }
