@@ -1,8 +1,5 @@
 body {
     box-sizing: border-box;
-    /*
-    font-family: "Helvetica Neue", HelveticaNeue, "TeX Gyre Heros", TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
-    */
     font-family: "Libre Baskerville", Georgia, Times, "Times New Roman", serif;
     background: #fffff8;
     color: #383838;
@@ -55,8 +52,7 @@ p, ol, ul, dl {
     text-align: left;
     max-width: 600px;
 }
-li {
-}
+
 @media (max-width: 991px) {
     h1 {
         font-size: 48px;
