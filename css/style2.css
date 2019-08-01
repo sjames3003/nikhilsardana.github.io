@@ -54,9 +54,6 @@ p, ol, ul, dl {
 }
 
 @media (max-width: 991px) {
-    h1 {
-        font-size: 48px;
-    }
     p,a,h1,h2,h3,h4,h5,h6,ul,dl,ol,li {
         max-width: 90%;
     }
